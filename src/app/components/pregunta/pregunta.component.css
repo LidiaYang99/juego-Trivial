@@ -1,0 +1,18 @@
+div {
+    height: 160px;
+    width: 600px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    backdrop-filter: blur(2px);
+    text-align: center;
+
+}
+
+div p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: antiquewhite;
+
+    padding-top: 30px;
+}

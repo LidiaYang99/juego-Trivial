@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.respuestas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    gap: 20px;
+}
+
+.respuesta{
+    height: 150px;
+}
+
+.respuesta p {
+    width: 120px;
+    height: 50px;
+    margin-top: 150px;
+    line-height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+    opacity: .8;
+}
+
+
+.info {
+    background-color: hotpink;
+    height: 50px;
+    width: 200px;
+}

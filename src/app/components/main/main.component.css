@@ -1,0 +1,87 @@
+/* ------------------pagina de ready--------------- */
+.ready {
+    background: url(../../../assets/image/bg-ready.jpg);
+    width: 1000px;
+    height: 500px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+.ready .contenido {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.ready .contenido p{
+    font-size: 55px;
+    color: #fff;
+    padding-bottom: 150px;
+}
+
+.ready button {
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+/* ----------------------pagina de main----------------------- */
+.main {
+    position: relative;
+    background: url(../../../assets/image/bg-main.jpg);
+    width: 1000px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.component {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    right: 0;
+    bottom: 30px;
+}
+
+.orden {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+
+/* ---------------------pagina de nota final-------------------- */
+.final{
+    background: url(../../../assets/image/bg-nota.jpg);
+    width: 1000px;
+    height: 500px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+.notafinal {
+    width: 400px;
+    height: 200px;
+    margin: 150px auto;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: lightblue;
+    opacity: .5;
+}
+
+.notafinal .over {
+    padding-top: 40px;
+}
+
+.notafinal .replay {
+    cursor: pointer;
+}
+
+.notafinal .replay:hover {
+    color: black;
+    text-shadow: #fff 2px 3px 3px;
+}

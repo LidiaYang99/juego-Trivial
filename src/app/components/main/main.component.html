@@ -1,0 +1,31 @@
+<div class="ready" *ngIf="!ready">
+    <div class="contenido">
+        <p>Trivial</p>
+        <button (click)="getReady()">Are you ready?</button>
+    </div>
+
+</div>
+
+<div *ngIf="preguntaActual&&ready" class="main">
+    <p class="orden">{{ numPreguntaActual+1}}/10</p>
+
+    <pregunta [texto]="preguntaActual.texto"></pregunta>
+
+    <lista-respuestas [respuestas]="preguntaActual.respuestas" [acertado]="acertado"
+        (respuestaPulsada)="getAnswerPulsada($event)"></lista-respuestas>
+
+    <div class="component">
+        <app-nota [nota]="nota"></app-nota>
+    </div>
+</div>
+
+<div class="final" *ngIf="numPreguntaActual>=10">
+
+    <div class="notafinal">
+        <div class="over">Game Over</div>
+        <p>Tu nota final es:{{nota}}</p>
+        <p (click)="refresh()" class="replay">Volver a jugar ?</p>
+    </div>
+
+
+</div>

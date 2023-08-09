@@ -1,0 +1,15 @@
+<div class="container" (click)="getDdesparecer()">
+
+    <div class="info" *ngIf="!acertado">
+
+    </div>
+
+
+    <div class="respuestas">
+        <div class="respuesta" *ngFor="let respuesta of respuestas">
+            <p (click)="getRespuestaPulsada(respuesta)">{{respuesta}}</p>
+        </div>
+    </div>
+
+
+</div>
